@@ -1,0 +1,33 @@
+{
+  "name": "email-authentication",
+  "version": "1.0.0",
+  "description": "email authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " npx nodemon index.js -e json,js, hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmayhedau/Email-authentication.git"
+  },
+  "author": "tanmay hedau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmayhedau/Email-authentication/issues"
+  },
+  "homepage": "https://github.com/tanmayhedau/Email-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
