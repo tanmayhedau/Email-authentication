@@ -19,7 +19,7 @@ var transporter = nodemailer.createTransport({
   service: "outlook",
   auth: {
     user: "merndeveloper@outlook.com",
-    pass: "tanmay007",
+    pass: "tanmay700",
   },
   tls: {
     rejectUnauthorized: false,
